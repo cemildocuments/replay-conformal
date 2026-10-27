@@ -1,0 +1,15 @@
+{
+  "input_archives_and_tasks": [
+    5,
+    6
+  ],
+  "independent_primary_models": 900,
+  "reproduced_rows": {
+    "benchmark.csv": 297000,
+    "aggregate.csv": 330,
+    "primary_cells.csv": 90,
+    "simulation.csv": 9396,
+    "stress.csv": 20
+  },
+  "status": "passed"
+}

@@ -1,0 +1,7 @@
+{
+  "exact_decimal_rank_checks": 60000,
+  "rank_inequalities_checked": 1827849,
+  "sharp_cases_checked": 2904,
+  "perturbation_cases": 1000,
+  "status": "passed"
+}

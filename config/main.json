@@ -1,0 +1,23 @@
+{
+  "seeds": 50,
+  "seed_offset": 47000,
+  "datasets": ["abalone", "airfoil", "concrete", "energy_heating", "wine_red", "wine_white"],
+  "models": ["ridge", "forest", "histboost"],
+  "calibration_sizes": [64, 128],
+  "alphas": [0.05, 0.1, 0.2],
+  "scenarios": [
+    {"cap": 8, "ratio": 1.0, "mechanism": "balanced"},
+    {"cap": 8, "ratio": 2.0, "mechanism": "low"},
+    {"cap": 8, "ratio": 4.0, "mechanism": "low"},
+    {"cap": 8, "ratio": 4.0, "mechanism": "high"},
+    {"cap": 8, "ratio": 4.0, "mechanism": "random"},
+    {"cap": 8, "ratio": 4.0, "mechanism": "balanced"},
+    {"cap": 8, "ratio": 6.0, "mechanism": "low"},
+    {"cap": 8, "ratio": 8.0, "mechanism": "balanced"},
+    {"cap": 4, "ratio": 3.75, "mechanism": "low"},
+    {"cap": 4, "ratio": 3.75, "mechanism": "random"},
+    {"cap": 4, "ratio": 4.0, "mechanism": "balanced"}
+  ],
+  "primary": {"alpha": 0.1, "calibration_size": 128, "cap": 8, "ratio": 4.0, "mechanism": "low"},
+  "workers": 10
+}

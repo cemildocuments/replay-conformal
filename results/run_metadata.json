@@ -1,0 +1,107 @@
+{
+  "config": {
+    "seeds": 50,
+    "seed_offset": 47000,
+    "datasets": [
+      "abalone",
+      "airfoil",
+      "concrete",
+      "energy_heating",
+      "wine_red",
+      "wine_white"
+    ],
+    "models": [
+      "ridge",
+      "forest",
+      "histboost"
+    ],
+    "calibration_sizes": [
+      64,
+      128
+    ],
+    "alphas": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "scenarios": [
+      {
+        "cap": 8,
+        "ratio": 1.0,
+        "mechanism": "balanced"
+      },
+      {
+        "cap": 8,
+        "ratio": 2.0,
+        "mechanism": "low"
+      },
+      {
+        "cap": 8,
+        "ratio": 4.0,
+        "mechanism": "low"
+      },
+      {
+        "cap": 8,
+        "ratio": 4.0,
+        "mechanism": "high"
+      },
+      {
+        "cap": 8,
+        "ratio": 4.0,
+        "mechanism": "random"
+      },
+      {
+        "cap": 8,
+        "ratio": 4.0,
+        "mechanism": "balanced"
+      },
+      {
+        "cap": 8,
+        "ratio": 6.0,
+        "mechanism": "low"
+      },
+      {
+        "cap": 8,
+        "ratio": 8.0,
+        "mechanism": "balanced"
+      },
+      {
+        "cap": 4,
+        "ratio": 3.75,
+        "mechanism": "low"
+      },
+      {
+        "cap": 4,
+        "ratio": 3.75,
+        "mechanism": "random"
+      },
+      {
+        "cap": 4,
+        "ratio": 4.0,
+        "mechanism": "balanced"
+      }
+    ],
+    "primary": {
+      "alpha": 0.1,
+      "calibration_size": 128,
+      "cap": 8,
+      "ratio": 4.0,
+      "mechanism": "low"
+    },
+    "workers": 10
+  },
+  "config_sha256": "3105a11a78232c2cd6c882f0cfdaa239b0b69ee53a63a6390268382a7c5c87bb",
+  "wall_seconds": 26.492862291022902,
+  "model_fits": 900,
+  "result_rows": 297000,
+  "workers": 10,
+  "python": "3.12.1",
+  "os": "Darwin",
+  "architecture": "arm64",
+  "logical_cpus": 12,
+  "memory_gib": 18.0,
+  "numpy": "1.26.3",
+  "scipy": "1.11.4",
+  "pandas": "2.2.1",
+  "scikit_learn": "1.4.0"
+}

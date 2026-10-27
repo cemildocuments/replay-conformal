@@ -1,0 +1,13 @@
+{
+  "replicates_per_cell": 10000,
+  "score_distributions": 4,
+  "source_sizes": [
+    32,
+    128,
+    512
+  ],
+  "simulated_rows": 9396,
+  "primary_seed": 781000,
+  "stress_seed": 110093,
+  "timing_seed": 40772
+}
